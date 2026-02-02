@@ -63,6 +63,12 @@ class RAGEngine:
         Current Question:
         {query}
         
+        INSTRUCTIONS:
+        Answer the question using only the Context above. 
+        If the context does not explicitly contain the answer, output "DATA_NOT_AVAILABLE". 
+        Do not use outside knowledge. 
+        Do not explain why the data is missing.
+        
         Answer:
         """
         
@@ -76,5 +82,5 @@ class RAGEngine:
         }
 if __name__=="__main__":
     engine=RAGEngine()
-    engine.ingest_file("sample.pdf") # Uncomment to test ingestion
-    print(engine.ask_question("What is the policy?"))
+    # engine.ingest_file("sample.pdf") # Uncomment to test ingestion
+    # print(engine.ask_question("What is the policy?"))
