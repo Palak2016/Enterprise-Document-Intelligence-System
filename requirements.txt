@@ -1,0 +1,10 @@
+fastapi
+uvicorn
+python-multipart
+streamlit
+requests
+langchain
+langchain-community
+chromadb
+sentence-transformers
+pypdf
