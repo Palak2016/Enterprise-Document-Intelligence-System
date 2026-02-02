@@ -38,6 +38,3 @@ This project addresses these issues by leveraging **LLMs + Vector Databases** wi
 - 📑 **Source documents displayed with every answer**
 - 🏠 **Runs entirely locally (privacy-centric)**
 
----
-
-## 🏗️ System Architecture (High-Level)
